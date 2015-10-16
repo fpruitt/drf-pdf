@@ -15,4 +15,4 @@ class PDFRenderer(BaseRenderer):
         """
         Return the PDF data as it is
         """
-        return data
+        return bytes(data)
